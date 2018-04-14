@@ -1,24 +1,38 @@
-# README
+# Literary Quotes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _A Rails API of literary quotes, 12.10.2017_
 
-Things you may want to cover:
+#### By _**Margaret Berry**_
 
-* Ruby version
+## Setup and Installation Instructions
+_This app was created with Ruby 2.4.1_
 
-* System dependencies
+_Run the following commands in Terminal:_
 
-* Configuration
+1. `$ git clone` [this repository](https://github.com/codemargaret/literary_quotes.git)
+2. `$ cd literary_quotes`
+3. `$ bundle install`
+4. `$ rake db:create`
+5. `$ rake db:test:prepare`
+6. `$ rake db:migrate`
+7. `$ rake db:seed`
+8. `$ rails s` _to start the server, then navigate to localhost:3000/quotes in your browser to see the quotes._
 
-* Database creation
+## Project Goals
+* _Build an API with CRUD functionality_
+* _Make API calls in Postman._
 
-* Database initialization
+## Bugs
+_There are no known bugs at this time._
 
-* How to run the test suite
+## Technologies Used
+* _Ruby-on-Rails_
+* _ActiveRecord_
 
-* Services (job queues, cache servers, search engines, etc.)
+## Support and contact details
+_If you have any updates, questions, or suggestions please contact [Margaret](codeberry1@gmail.com) or make a contribution._
 
-* Deployment instructions
+### License
+*This software is licensed under the MIT license.*
 
-* ...
+Copyright (c) 2017 **_Margaret Berry_**
